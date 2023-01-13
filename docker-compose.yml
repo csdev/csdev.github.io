@@ -1,0 +1,6 @@
+services:
+  site:
+    image: csang/jekyll:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile

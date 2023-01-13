@@ -27,6 +27,7 @@ url: "https://csang.dev" # the base hostname & protocol for your site, e.g. http
 github_username:  csdev
 
 # Build settings
+markdown: GFM
 theme: minima
 plugins:
   - jekyll-feed

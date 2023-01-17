@@ -18,5 +18,11 @@ ENV GEM_HOME="/home/jekyll/gems" \
 RUN gem install bundler
 RUN gem install jekyll -v '3.9.2'
 
+WORKDIR /home/jekyll/site
+COPY --chown=jekyll site/Gemfile site/Gemfile.lock ./
+RUN BUNDLE_FROZEN=true bundle install
+
+COPY --chown=jekyll site ./
+
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["/bin/bash"]

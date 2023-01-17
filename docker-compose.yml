@@ -1,6 +1,13 @@
 services:
-  site:
+  jekyll:
     image: csang/jekyll:latest
     build:
       context: .
       dockerfile: ./Dockerfile
+
+  jekyll-serve:
+    extends:
+      service: jekyll
+    command: ["bundle", "exec", "jekyll", "serve", "--host=0.0.0.0"]
+    ports:
+      - "4000:4000"

@@ -1,0 +1,6 @@
+site/_site
+site/vendor
+.devcontainer
+.sass-cache
+.jekyll-cache
+.jekyll-metadata

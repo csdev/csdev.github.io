@@ -4,7 +4,15 @@ title: About
 permalink: /about/
 ---
 
-## Core Principles
+## Hi!
+
+I'm just another software engineer who posts stuff on the internet.
+You'll find a variety of articles here, but my main focus will be backend projects, devops,
+and infrastructure.
+
+Check the home page for my latest content, or browse the list of topics.
+
+## My Values
 
 * **Knowledge sharing** - A developer blog isn't useful if you can't share it with others and incorporate
   what you learned into your own projects. Therefore, I have placed my work unambiguously under open source
@@ -13,7 +21,11 @@ permalink: /about/
 * **Minimal design** - There is a reason why many developers prefer to work in the terminal. I have avoided
   flashy graphics and styles so you can focus on the content.
 
-## License
+* **Production quality** - While I can't warrant that my work is 100% free of bugs, rest assured that you
+  won't find any throwaway code here. Many of my posts are inspired by my experience as an SRE, where the
+  approaches have been tested at scale.
+
+## Licenses
 
 ### Software
 
@@ -36,5 +48,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Copyright 2023 Christopher Sang
 
-Except where otherwise noted, content on this website not covered by the above Software License is licensed under a
+Except where otherwise noted, content on this website not covered by the above Software License (such as text and images) is licensed under a
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

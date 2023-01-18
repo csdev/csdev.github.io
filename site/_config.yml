@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: csang.dev
+title: code soup
 # email: your-email@example.com
 description: >-
-  random thoughts and ideas from my last remaining brain cell
+  random thoughts on software development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://csang.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  csdev
@@ -29,8 +29,8 @@ github_username:  csdev
 # Build settings
 markdown: GFM
 theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

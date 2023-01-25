@@ -50,3 +50,8 @@ Copyright 2023 Christopher Sang
 
 Except where otherwise noted, content on this website not covered by the above Software License (such as text and images) is licensed under a
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+## Issue Reporting
+
+* Found a bug or inaccuracy? Report it on the Github [issue tracker](https://github.com/csdev/csdev.github.io/issues).
+* Security vulnerabilities can be reported privately on the Github [advisory page](https://github.com/csdev/csdev.github.io/security/advisories).

@@ -94,6 +94,7 @@ The dev container config:
         "docker-compose.yml"  // your override file
     ],
     "service": "jekyll",
+    "runServices": ["jekyll"],
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
 ```

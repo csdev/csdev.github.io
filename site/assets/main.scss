@@ -1,0 +1,14 @@
+---
+
+---
+
+@import "minima";
+
+.post-content {
+    img[src$=".svg"] {
+        max-height: 25em;
+        max-width: 80%;
+        display: block;
+        margin: 2em auto 2em auto;
+    }
+}

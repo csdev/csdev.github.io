@@ -9,12 +9,12 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 # https://pages.github.com/versions/
-gem "jekyll", "~> 3.9.2"
-gem "minima", "~> 2.5"
-gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "jekyll", "~> 3.9.3"
+gem "minima", "~> 2.5.1"
+gem "github-pages", "~> 228", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.15.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -8,13 +8,16 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+# install older version of ffi for compatibility with ruby 2.7
+gem "ffi", "~> 1.16.3"
+
 # https://pages.github.com/versions/
-gem "jekyll", "~> 3.9.3"
+gem "jekyll", "~> 3.9.5"
 gem "minima", "~> 2.5.1"
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", "~> 231", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-feed", "~> 0.17.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
